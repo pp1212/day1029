@@ -33,7 +33,6 @@ public class FileList extends JFrame implements MouseListener, ActionListener{
 		//벡터를 생성
 		vector = new Vector<String>();
 		
-		//C:\javaStudy\day1025 이 경로에 있는 모든 파일목록으로 JList를 만듬
 		
 		//디렉토리(폴더)도 File객체로 만듬
 		File dir = new File(path);
@@ -163,7 +162,7 @@ public class FileList extends JFrame implements MouseListener, ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		
-		//삭제하기 위하여 삭제할 파일의 File객체로 만듬
+		//삭제하기 위하여 삭제할 파일을 File객체로 만듬
 		File file = new File(path + "/" +list.getSelectedValue());
 		
 		//그 파일을 삭제함

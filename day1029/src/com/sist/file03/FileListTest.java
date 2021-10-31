@@ -1,6 +1,6 @@
-package com.sist.file;
+package com.sist.file03;
 
-public class FileLListTest {
+public class FileListTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
